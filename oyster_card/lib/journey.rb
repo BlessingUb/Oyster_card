@@ -11,6 +11,10 @@ class Journey
              @entry_station != nil
          end 
 
+         def finish(station)
+            @entry_station = nil
+         end
+
         # def fare 
         #     if in_journey? == true && exit_station == nil
         #         MINIMUM_FARE
